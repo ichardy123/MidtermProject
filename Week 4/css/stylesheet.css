@@ -1,0 +1,128 @@
+<style>
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #fbe9e7;
+}
+.tabs{
+	background-color: #fbe9e7;
+}
+
+.flickity-prev-next-button {
+  width: 65px;
+  height: 65px;
+  background: transparent;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+.flickity-prev-next-button .arrow {
+  fill: white;
+
+}
+
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+.flickity-page-dots {
+	bottom: 0px;
+}
+.flickity-page-dots .dot {
+	width: 12px;
+  	height: 12px;
+  	opacity: 1;
+ 	background: transparent;
+  	border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+.banner{
+	width: 50%;
+	height: 295px;
+	position: absolute;
+}
+.img_smaller{
+	width: 1250px;
+	height: 1050px;
+	position: absolute;
+}
+
+.nav-words{
+	position: all;
+}
+.carousel{
+	height: auto;
+	width: 100%;
+}
+.ad-carousel .flickity-prev-next-button
+{
+	display: none;
+
+}
+.ad-carousel {
+	height: 200px;
+	position: relative;
+
+}
+.ad-carousel .dot{
+	display: none;
+}
+.carousel-cell {
+	width:100%;
+	height:700px;
+	position: absolute;	
+	
+}
+
+.material-icons{
+	position: relative;
+	color: white;
+}
+
+.carousel-cell img{
+	width: 100%;
+	height: center;
+
+}
+.ad-caro{
+	height: 200px;
+	position: relative;
+}
+.card-panel{
+	width: 100%;
+	height: 250px;
+	background-color: #ff3d00;
+
+}
+.above_pic{
+	position: relative;
+
+}
+.panel-org{
+	background-color: #ff3d00;
+}
+
+.s6 img{
+	width: 100%;
+	height: auto;
+}
+.page-footer{
+	width: 100%;
+	height: 200px;
+}
+.nav-wrapper{
+	height: auto;
+	background-color: #ff3d00;
+}
+@media (max-width:435px){
+.carousel{
+	height: 250px;
+
+}
+}
+
+</style>
